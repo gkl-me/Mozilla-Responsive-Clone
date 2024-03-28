@@ -1,0 +1,378 @@
+*{
+    font-family: Inter, X-LocaleSpecific, sans-serif;
+    font-size: 16px;
+}
+
+
+/* NAV BAR */
+
+.moznav{
+    font-weight: 700;
+    max-width: 1330px ;
+}
+
+.navbar-brand img{
+    width: 112px;
+    height: 32px;
+}
+
+.nav-item{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.nav-link{
+    color: #000;
+}
+
+
+/* --------------------- SECTION 1 --------------------------------------*/
+
+section{
+    margin: 0 auto;
+    font-family: Zilla slab;
+    max-width: 928px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 h1{
+    font-family: Zilla slab;
+    max-width: 928px;
+    font-size: 3.4rem;
+    font-weight: 700;
+}
+
+.section1 p{
+    font-family: Zilla slab;
+    max-width: 720px;
+    font-size: 1.8rem;
+    font-weight: 400 !important;
+}
+
+/*-------------------------------------- section2 -------------------------------------*/
+
+.section2 p{
+    font-size: 1.25rem;
+}
+
+.s1{
+    max-width: 100%;
+    background-image: linear-gradient(90deg, #e8e7f2, #e5e9f5, #e2ebf7, #deedf8, #dbeff8, #daf0f7, #daf2f5, #daf3f3, #dcf4f1, #dff5ef, #e2f5ee, #e5f6ec) !important;
+}
+
+/*--------------------------------------- section 3 -----------------------------------------*/
+
+.section3 h2{
+    font-family: Zilla slab;
+    font-weight: 700;
+    font-size: 2.35rem;
+}
+
+.col{
+    height: 200px;
+    width: 275px;
+}
+
+.col h3{
+    font-size: 1.18rem;
+    font-weight: 700;
+}
+
+/*---------------------------------------------- section4 ------------------------------------ */
+
+.section4 p{
+    max-width: 928px;
+    padding: 0;
+    font-size: 1.25rem;
+}
+
+.name1{
+    font-weight: 700;
+}
+
+
+/*-----------------------------------------------section5 -------------------------------------- */
+
+.section5{
+    max-width: 100%;
+}
+
+.section5-container{
+    max-width: 1300px;
+}
+
+.section5 h2{
+    font-size: 2.37rem;
+    font-family: Zilla slab;
+    font-weight: 700;
+}
+
+.section5 p{
+    font-size: 1.25rem;
+}
+
+
+/* ----------------------------section6 -------------------------------- */
+
+.section6{
+    max-width: 100%;
+}
+
+.section6-container{
+    max-width: 1300px;
+}
+
+.section6 h2{
+    font-size: 2.37rem;
+    font-family: Zilla slab;
+    font-weight: 700;
+}
+
+.section6 p{
+    font-size: 1.125rem;
+}
+
+/*------------------------------------------- section7 ----------------------------------------- */
+
+.section7{
+    max-width: 1300px;
+    
+}
+
+.section7-container{
+    background: #e7dfff;
+}
+
+.section7 h3{
+    font-size: 1.12rem;
+    font-weight: 700;
+    color: #7542e5;
+}
+
+.section7 h2{
+    font-size: 1.7rem;
+    font-family: Zilla Slab;
+    font-weight: 700;
+}
+
+span{
+    color: #7542e5;
+    font-size: 1.7rem;
+    font-family: Zilla slab;
+}
+
+
+/* -------------------------- section8------------------------------- */
+
+.space{
+    margin: 3rem; 
+}
+
+.section8{
+    max-width: 100%;
+   background: #f0f0f4;
+}
+
+.section8-container{
+    max-width: 928px;
+
+}
+
+.section8 h2{
+    font-size: 2.37rem;
+    font-family: Zilla slab;
+    font-weight: 700;
+}
+
+.section8 p{
+    font-size: 1.1rem;
+    
+}
+
+.section8 img{
+    object-position: 4px 16px;
+    height: 95px;
+    width: 100px;
+}
+
+/* ----------------------------------------------section9---------------------------------------- */
+
+
+
+fieldset{
+    width: 100%;
+}
+
+.button9{
+    width: 100%;
+}
+
+fieldset input{
+    padding: 8px;
+}
+
+.section9 h2{
+    font-size: 2.3rem;
+    font-family: Zilla slab;
+    font-weight: 700;
+}
+
+fieldset span{
+    font-size: .75rem;
+    color: #000;
+}
+
+fieldset label{
+    font-weight: 700;
+}
+
+
+
+/*---------------------------- footer ----------------------------- */
+
+footer{
+    background-color: #000;
+    color: #ffff;
+}
+ 
+footer li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+footer img{
+    width: 100px;
+    height: 32px;
+}
+
+footer li img{
+    margin-right: 12px;
+    height: 16px;
+    width: 16px;
+}
+
+footer p{
+    font-size: .75rem;
+}
+
+.footer-title{
+    font-family: Zilla slab;
+    font-weight: 700;
+}
+
+hr{
+    margin-top: 70px;
+}
+
+
+/*------------------------------------------------ media query------------------------------------------------*/
+
+@media (max-width: 910px) {
+
+    .section1 h1{
+        font-size: 2.3rem;
+    }
+
+    .section1 p{
+        font-size: 1.5rem;
+    }
+
+    .section2{
+        text-align: center;
+    }
+}
+
+@media (max-width: 790px){
+
+    .section7-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8px;
+
+    }
+
+    .section7 img{
+        width: 160px;
+    }
+
+    .footer-last{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-last form{
+        display: inline-block;
+    }
+
+    .section5 button{
+        font-size: .85rem;
+    }
+
+    .section5{
+        max-height: 900px;
+    }
+
+    .section6{
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+
+    .section9-col{
+        text-align: center;
+    }
+
+    .section9-col1{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media (max-width: 390px){
+
+    .section1 h1{
+        font-size: 1.7rem;
+    }
+
+    .section1 p{
+        font-size: 1.2rem;
+    }
+    .section5 h2{
+        font-size: 1.5rem;
+    }
+
+    .section5 p{
+        font-size: 1rem;
+    }
+
+    .section6 h2{
+        font-size: 1.5rem;
+    }
+
+    .section6 p{
+        font-size: 1rem;
+    }
+
+    .section3 h2{
+        font-size: 1.9rem;
+    }
+
+    .footer-last{
+        margin-left: 15px;
+    }
+}
+
+.scrollTop{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    height: 35px;
+    width: 40px;
+    padding: 5px;
+}
+
